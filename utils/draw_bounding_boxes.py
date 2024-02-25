@@ -37,12 +37,6 @@ def drawImageWithBoxes(image_path, boxes_file):
 
   # Save the image with bounding boxes to a file
   output_image_path = './output_image.jpg'  # Specify your output image path here
-  print('!pwd')
   cv2.imwrite(output_image_path, image_with_boxes)
 
   print(f"Image with bounding boxes saved to {output_image_path}")
-
-# image_path = 'sheeps1.jpeg'
-# boxes_file = 'sheeps1.txt'
-
-# drawImageWithBoxes(image_path, boxes_file)
